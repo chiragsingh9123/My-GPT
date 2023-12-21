@@ -3,7 +3,7 @@ from tkinter import scrolledtext,messagebox,filedialog
 import google.generativeai as genai
 import requests
 from PIL import Image, ImageTk
-GOOGLE_API_KEY='AIzaSyDtnDYXnzbDRHgc7m1xTt-vjbveF9KRfaU'
+GOOGLE_API_KEY='YOUR_GIMINI_API_KEY'
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
